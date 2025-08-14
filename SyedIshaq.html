@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Syed | Software Engineer specializing in web and mobile app development">
+<meta property="og:title" content="Syed | Software Engineer">
+<meta property="og:description" content="Step into my world of elegant code, creative logic, and powerful projects.">
+<meta property="og:image" content="https://yourwebsite.com/preview-image.jpg">
+<meta property="og:url" content="https://yourwebsite.com">
+<meta name="twitter:card" content="summary_large_image">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Syed | Software Engineer</title>
+   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 fill=%22white%22>/></text></svg>">
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+
+    @keyframes blink {
+      0%, 100% { border-color: transparent }
+      50% { border-color: #c3e88d }
+    }
+
+    .typewriter-text {
+      overflow: hidden;
+      white-space: nowrap;
+      border-right: 3px solid #c3e88d;
+      animation: typing 4s steps(40, end), blink 0.8s step-end infinite;
+    }
+
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+
+    .fade-in {
+      opacity: 0;
+      animation: fadeIn 2s ease-in forwards;
+      animation-delay: 4.2s;
+    }
+
+  </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+<!-- Lavish Welcome Card with Countdown -->
+<!-- Welcome Card Overlay -->
+<div id="welcome-card" class="fixed inset-0 z-50 flex items-center justify-center bg-gradient-to-br from-indigo-900 via-purple-900 to-fuchsia-900 backdrop-blur-xl bg-opacity-80">
+  <div class="relative backdrop-blur-2xl bg-white/10 border border-white/10 text-indigo-200 p-12 rounded-3xl shadow-2xl text-center w-[90%] max-w-2xl transform scale-100 transition-all duration-700">
+    
+    <h1 class="text-5xl font-extrabold mb-4 tracking-widest drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)] text-indigo-300">
+      Welcome!
+    </h1>
+
+    <p class="text-xl font-light mb-8 tracking-wide text-indigo-200">
+      Step into my world of elegant code, creative logic, and powerful projects.
+    </p>
+    
+    <!-- Countdown -->
+    <div id="countdown" class="text-4xl font-bold text-indigo-100 animate-bounce transition-all duration-300">
+      3
+    </div>
+  </div>
+</div>
+
+<!-- Background Typing Animation -->
+<div class="fixed inset-0 z-0 font-mono text-sm text-white bg-[#1e1e1e]">
+  <div class="flex h-full">
+
+    <!-- Sidebar / Explorer -->
+    <div class="w-64 bg-[#252526] border-r border-[#333] p-4 space-y-3">
+      <div class="text-gray-300 font-bold text-xs tracking-wider">EXPLORER</div>
+      <ul class="text-gray-400 space-y-1 text-sm">
+        <li>📁 elpl-project</li>
+        <li class="ml-4 text-white">📄 main.elpl</li>
+        <li class="ml-4">📄 MainActivity.java</li>
+        <li class="ml-4">📄 Dashboard.swift</li>
+        <li class="ml-4">📄 utils.elpl</li>
+        <li>📁 test</li>
+        <li class="ml-4">📄 test_sum.elpl</li>
+      </ul>
+    </div>
+
+    <!-- Main Code Area -->
+    <div class="flex flex-col flex-1">
+
+      <!-- Top Tab Bar -->
+      <div class="flex items-center gap-4 px-4 py-2 bg-[#1e1e1e] border-b border-[#333] text-gray-300">
+        <span class="text-white font-semibold">main.elpl</span>
+        <span class="text-[#777]">MainActivity.java</span>
+        <span class="text-[#777]">Dashboard.swift</span>
+      </div>
+
+      <!-- Editor Area -->
+      <div class="flex-1 overflow-auto bg-[#1e1e1e] p-6">
+        <pre class="typewriter-text whitespace-pre-wrap leading-relaxed text-[#d4d4d4]">
+<span class="text-[#C792EA]">Array</span> <span class="text-white">nums</span> <span class="text-[#C792EA]">be</span> <span class="text-[#FFCB6B]">[1, 0, -1, 0, -2, 2]</span>
+<span class="text-[#C792EA]">let</span> <span class="text-white">target</span> <span class="text-[#C792EA]">be</span> <span class="text-[#FFCB6B]">0</span>
+
+<span class="text-[#C792EA]">for</span> <span class="text-white">i</span> <span class="text-[#C792EA]">be</span> <span class="text-[#FFCB6B]">0</span> <span class="text-[#C792EA]">to</span> <span class="text-[#82AAFF]">length</span><span class="text-white">(nums)</span> <span class="text-[#C792EA]">subtract</span> <span class="text-[#FFCB6B]">3</span> {
+  <span class="text-[#C792EA]">for</span> <span class="text-white">j</span> <span class="text-[#C792EA]">be</span> <span class="text-white">i</span> <span class="text-[#C792EA]">add</span> <span class="text-[#FFCB6B]">1</span> <span class="text-[#C792EA]">to</span> <span class="text-[#82AAFF]">length</span><span class="text-white">(nums)</span> <span class="text-[#C792EA]">subtract</span> <span class="text-[#FFCB6B]">2</span> {
+    <span class="text-[#C792EA]">for</span> <span class="text-white">k</span> <span class="text-[#C792EA]">be</span> <span class="text-white">j</span> <span class="text-[#C792EA]">add</span> <span class="text-[#FFCB6B]">1</span> <span class="text-[#C792EA]">to</span> <span class="text-[#82AAFF]">length</span><span class="text-white">(nums)</span> <span class="text-[#C792EA]">subtract</span> <span class="text-[#FFCB6B]">1</span> {
+      <span class="text-[#C792EA]">for</span> <span class="text-white">l</span> <span class="text-[#C792EA]">be</span> <span class="text-white">k</span> <span class="text-[#C792EA]">add</span> <span class="text-[#FFCB6B]">1</span> <span class="text-[#C792EA]">to</span> <span class="text-[#82AAFF]">length</span><span class="text-white">(nums)</span> {
+        <span class="text-[#C792EA]">let</span> <span class="text-white">sums</span> <span class="text-[#C792EA]">be</span> <span class="text-white">nums[i]</span> <span class="text-[#C792EA]">add</span> <span class="text-white">nums[j]</span> <span class="text-[#C792EA]">add</span> <span class="text-white">nums[k]</span> <span class="text-[#C792EA]">add</span> <span class="text-white">nums[l]</span>
+        <span class="text-[#82AAFF]">print</span> <span class="text-[#CE9178]">"checking quadruple: "</span> <span class="text-white">i j k l</span> <span class="text-[#CE9178]">" sum: "</span> <span class="text-white">sums</span>
+        
+        <span class="text-[#C792EA]">if</span> <span class="text-white">sums</span> <span class="text-[#C792EA]">is equal to</span> <span class="text-white">target</span> <span class="text-[#C792EA]">then</span> {
+          <span class="text-[#82AAFF]">print</span> <span class="text-[#CE9178]">"FOUND quadruple at indices: "</span> <span class="text-white">i j k l</span> <span class="text-[#CE9178]">" sum: "</span> <span class="text-white">sums</span>
+          <span class="text-[#C792EA]">stop</span>
+        } <span class="text-[#C792EA]">otherwise</span> {
+          <span class="text-[#82AAFF]">print</span> <span class="text-[#CE9178]">"not a valid quadruple"</span>
+        }
+      }
+      <span class="text-[#C792EA]">stop</span>
+    }
+    <span class="text-[#C792EA]">stop</span>
+  }
+  <span class="text-[#C792EA]">stop</span>
+}
+        </pre>
+      </div>
+
+      <!-- Terminal -->
+      <div class="h-48 bg-[#1e1e1e] border-t border-[#333] p-4 overflow-auto">
+        <div class="text-[#0f0] mb-1">> Running main.elpl...</div>
+        <div class="text-white">checking quadruple: 0 1 2 3 sum: 0</div>
+        <div class="text-[#FFCB6B]">FOUND quadruple at indices: 0 1 2 3 sum: 0</div>
+        <div class="text-[#555] mt-2">// Execution completed in 0.02s</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <div class="relative z-10">
+
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex flex-col justify-center items-center text-center px-4">
+      <!-- Background Gradient -->
+      <div class="absolute inset-0 bg-gradient-to-br from-blue-500 via-purple-600 to-indigo-700 opacity-90 z-0"></div>
+
+      <!-- Blur Elements -->
+      <div class="absolute -top-10 -left-10 w-72 h-72 bg-purple-400 rounded-full blur-3xl opacity-30 animate-pulse"></div>
+      <div class="absolute bottom-0 right-0 w-80 h-80 bg-indigo-400 rounded-full blur-3xl opacity-20 animate-spin-slow"></div>
+
+      <!-- Main Content -->
+      <div class="relative z-10 text-white">
+        <h1 class="text-5xl sm:text-7xl font-extrabold mb-4 drop-shadow-md">Hi, I'm Syed</h1>
+        <p class="text-xl sm:text-2xl text-gray-100">Software Engineer • Mobile & Web App Engineer</p>
+
+       
+        
+
+        <a href="#services" class="mt-8 inline-block bg-white text-blue-700 font-semibold px-6 py-3 rounded-full hover:bg-blue-100 transition shadow-lg">
+          Explore More
+        </a>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+  <section id="services" class="py-20 bg-black-500 text-white text-center">
+  <h2 class="text-4xl font-extrabold mb-12 tracking-wide">My Services</h2>
+  <div class="max-w-6xl mx-auto grid gap-10 sm:grid-cols-2 lg:grid-cols-3 px-6">
+    
+    <!-- Service Card -->
+    <div class="bg-white bg-opacity-10 backdrop-blur-md p-8 rounded-2xl shadow-lg hover:-translate-y-2 hover:shadow-2xl transition duration-300">
+      <div class="text-5xl mb-4">💻</div>
+      <h3 class="text-2xl font-semibold mb-2">Full-Stack Web Development</h3>
+      <p class="text-gray-200">Modern, responsive apps using React, Tailwind, Spring Boot & more.</p>
+    </div>
+
+    <div class="bg-white bg-opacity-10 backdrop-blur-md p-8 rounded-2xl shadow-lg hover:-translate-y-2 hover:shadow-2xl transition duration-300">
+      <div class="text-5xl mb-4">📱</div>
+      <h3 class="text-2xl font-semibold mb-2">Mobile App Development</h3>
+      <p class="text-gray-200">Native Android/iOS & cross-platform app development.</p>
+    </div>
+
+    <div class="bg-white bg-opacity-10 backdrop-blur-md p-8 rounded-2xl shadow-lg hover:-translate-y-2 hover:shadow-2xl transition duration-300">
+      <div class="text-5xl mb-4">🧠</div>
+      <h3 class="text-2xl font-semibold mb-2">AI Projects</h3>
+      <p class="text-gray-200">Building smart solutions with AI, ML, and automation technologies.</p>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div class="mt-14">
+    <a href="mailto:syedmujtabaish@gmail.com" target="_blank" class="inline-block bg-white text-blue-900 font-semibold py-3 px-8 rounded-full shadow hover:bg-gray-200 transition duration-300">
+      Contact Me
+    </a>
+  </div>
+</section>
+
+    <!-- Skills Section -->
+  <section class="relative py-20 px-6 bg-gray-900 text-gray-100 overflow-hidden">
+  <!-- Coding pattern background -->
+  <div aria-hidden="true" class="absolute inset-0 opacity-10 pointer-events-none" style="background-image:
+    linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px),
+    repeating-linear-gradient(45deg, transparent, transparent 4px, rgba(255,255,255,0.03) 5px, rgba(255,255,255,0.03) 6px);
+    background-size: 20px 20px, 20px 20px, 10px 10px;">
+  </div>
+
+  <div class="relative max-w-6xl mx-auto text-center">
+    <h2 class="text-3xl font-extrabold mb-12 tracking-wide">Technical Skills</h2>
+
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+
+      <!-- Android Studio -->
+      <div class="bg-gray-800 bg-opacity-60 p-5 rounded-xl shadow-lg hover:bg-gray-700 transition flex items-center gap-3">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" alt="Android Studio" class="h-6 w-6" />
+        Android Studio
+      </div>
+
+      <!-- Xcode -->
+      <div class="bg-gray-800 bg-opacity-60 p-5 rounded-xl shadow-lg hover:bg-gray-700 transition flex items-center gap-3">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xcode/xcode-original.svg" alt="Xcode" class="h-6 w-6" />
+        Xcode
+      </div>
+
+      <!-- React -->
+      <div class="bg-gray-800 bg-opacity-60 p-5 rounded-xl shadow-lg hover:bg-gray-700 transition flex items-center gap-3">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" class="h-6 w-6" />
+        React
+      </div>
+
+      <!-- JavaScript -->
+      <div class="bg-gray-800 bg-opacity-60 p-5 rounded-xl shadow-lg hover:bg-gray-700 transition flex items-center gap-3">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="h-6 w-6" />
+        JavaScript
+      </div>
+
+      <!-- Node.js -->
+      <div class="bg-gray-800 bg-opacity-60 p-5 rounded-xl shadow-lg hover:bg-gray-700 transition flex items-center gap-3">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" class="h-6 w-6" />
+        Node.js
+      </div>
+
+      <!-- Spring Boot -->
+      <div class="bg-gray-800 bg-opacity-60 p-5 rounded-xl shadow-lg hover:bg-gray-700 transition flex items-center gap-3">
+        <!-- Custom SVG Spring Boot Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-400 flex-shrink-0" viewBox="0 0 512 512" fill="currentColor">
+          <path d="M256 48C141.125 48 48 141.125 48 256s93.125 208 208 208 208-93.125 208-208S370.875 48 256 48zm0 336a128 128 0 1 1 0-256 128 128 0 0 1 0 256z"/>
+          <path d="M256 176a80 80 0 1 0 0 160 80 80 0 0 0 0-160z"/>
+        </svg>
+        Spring Boot
+      </div>
+
+      <!-- Firebase -->
+      <div class="bg-gray-800 bg-opacity-60 p-5 rounded-xl shadow-lg hover:bg-gray-700 transition flex items-center gap-3">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase" class="h-6 w-6" />
+        Firebase
+      </div>
+
+      <!-- MongoDB -->
+      <div class="bg-gray-800 bg-opacity-60 p-5 rounded-xl shadow-lg hover:bg-gray-700 transition flex items-center gap-3">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" class="h-6 w-6" />
+        MongoDB
+      </div>
+
+      <!-- Programming Core -->
+      <div class="bg-gray-800 bg-opacity-60 p-5 rounded-xl shadow-lg hover:bg-gray-700 transition flex items-center gap-3">
+        <!-- Code bracket icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-indigo-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M16 18l6-6-6-6M8 6l-6 6 6 6" />
+        </svg>
+        Programming Core
+      </div>
+
+      <!-- SQL -->
+      <div class="bg-gray-800 bg-opacity-60 p-5 rounded-xl shadow-lg hover:bg-gray-700 transition flex items-center gap-3">
+        <!-- Database icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <ellipse cx="12" cy="5" rx="9" ry="3" />
+          <path d="M3 5v14c0 1.657 4.03 3 9 3s9-1.343 9-3V5" />
+        </svg>
+        SQL
+      </div>
+
+      <!-- Java -->
+      <div class="bg-gray-800 bg-opacity-60 p-5 rounded-xl shadow-lg hover:bg-gray-700 transition flex items-center gap-3">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" class="h-6 w-6" />
+        Java
+      </div>
+
+      <!-- C++ -->
+      <div class="bg-gray-800 bg-opacity-60 p-5 rounded-xl shadow-lg hover:bg-gray-700 transition flex items-center gap-3">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" class="h-6 w-6" />
+        C++
+      </div>
+
+      <!-- Compiler Design -->
+      <div class="bg-gray-800 bg-opacity-60 p-5 rounded-xl shadow-lg hover:bg-gray-700 transition flex items-center gap-3">
+        <!-- Gear icon for compiler -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 3v1.5M14.25 3v1.5M4.5 12h1.5M18 12h1.5M9.75 21v-1.5M14.25 21v-1.5M5.636 5.636l1.06 1.06M17.304 17.304l1.06 1.06M5.636 18.364l1.06-1.06M17.304 6.696l1.06-1.06M12 8.25a3.75 3.75 0 1 1 0 7.5 3.75 3.75 0 0 1 0-7.5z" />
+        </svg>
+        Compiler Design
+      </div>
+
+      <!-- System Programming -->
+      <div class="bg-gray-800 bg-opacity-60 p-5 rounded-xl shadow-lg hover:bg-gray-700 transition flex items-center gap-3">
+        <!-- Terminal window icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8 9l3 3-3 3M13 15h3M5 21h14a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2z" />
+        </svg>
+        System Programming
+      </div>
+    <div class="bg-gray-800 bg-opacity-60 p-5 rounded-xl shadow-lg hover:bg-gray-700 transition flex items-center gap-3">
+  <!-- CPU icon representing Assembly -->
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round"
+      d="M9 3h6M9 21h6M3 9v6M21 9v6M7 7h10v10H7V7z" />
+  </svg>
+  Assembly Language
+</div>
+
+
+
+      <!-- Full-Stack Development -->
+      <div class="bg-gray-800 bg-opacity-60 p-5 rounded-xl shadow-lg hover:bg-gray-700 transition flex items-center gap-3">
+        <!-- Code brackets icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-cyan-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M16 18l6-6-6-6M8 6l-6 6 6 6" />
+        </svg>
+        Full-Stack Development
+      </div>
+      <div class="bg-gray-800 bg-opacity-60 p-5 rounded-xl shadow-lg hover:bg-gray-700 transition flex items-center gap-3">
+  <!-- AI / Brain icon -->
+  <img src="https://cdn-icons-png.freepik.com/512/10349/10349906.png" alt="AI" class="h-6 w-6" />
+  AI Development
+</div>
+
+
+    </div>
+  </div>
+</section>
+
+
+
+
+    <!-- Projects Section -->
+  <section class="bg-black-500 py-16 px-6 text-white">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-4xl font-extrabold mb-12 text-center tracking-wide text-white">Projects</h2>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- Project Card -->
+      <div class="bg-white bg-opacity-10 backdrop-blur-lg border border-white border-opacity-20 p-6 rounded-2xl shadow-xl transition-transform hover:-translate-y-2 hover:shadow-2xl">
+        <h3 class="text-2xl font-semibold mb-2 text-white">ELPL Language</h3>
+        <p class="text-gray-200">A custom-built programming language with support for functions, loops, arrays, return statements, recursion, and native x86-64 compilation.</p>
+      </div>
+
+      <!-- Project Card -->
+      <div class="bg-white bg-opacity-10 backdrop-blur-lg border border-white border-opacity-20 p-6 rounded-2xl shadow-xl transition-transform hover:-translate-y-2 hover:shadow-2xl">
+        <h3 class="text-2xl font-semibold mb-2 text-white">PDF Reader App</h3>
+        <p class="text-gray-200">Cross-platform mobile app (Android/iOS) using Firebase Authentication with support for dark mode, PDF syncing, and bookmarking.</p>
+      </div>
+
+      <!-- Project Card -->
+      <div class="bg-white bg-opacity-10 backdrop-blur-lg border border-white border-opacity-20 p-6 rounded-2xl shadow-xl transition-transform hover:-translate-y-2 hover:shadow-2xl">
+        <h3 class="text-2xl font-semibold mb-2 text-white">AI Facial Recognition</h3>
+        <p class="text-gray-200">Face detection and comparison system with confidence scoring, built using machine learning models in a native Android app.</p>
+      </div>
+
+      <!-- Project Card -->
+      <div class="bg-white bg-opacity-10 backdrop-blur-lg border border-white border-opacity-20 p-6 rounded-2xl shadow-xl transition-transform hover:-translate-y-2 hover:shadow-2xl">
+        <h3 class="text-2xl font-semibold mb-2 text-white">ELPL Backend Compiler</h3>
+        <p class="text-gray-200">Spring Boot-powered REST API that parses and executes ELPL code, supporting rich features like nested functions and flow control.</p>
+      </div>
+
+      <!-- Project Card -->
+      <div class="bg-white bg-opacity-10 backdrop-blur-lg border border-white border-opacity-20 p-6 rounded-2xl shadow-xl transition-transform hover:-translate-y-2 hover:shadow-2xl">
+        <h3 class="text-2xl font-semibold mb-2 text-white">Practice Web App</h3>
+        <p class="text-gray-200">A lightweight online playground to practice HTML, Tailwind CSS, and JavaScript—ideal for interviews and quick prototyping.</p>
+      </div>
+
+      <!-- Project Card -->
+      <div class="bg-white bg-opacity-10 backdrop-blur-lg border border-white border-opacity-20 p-6 rounded-2xl shadow-xl transition-transform hover:-translate-y-2 hover:shadow-2xl">
+        <h3 class="text-2xl font-semibold mb-2 text-white">Facebook Clone</h3>
+        <p class="text-gray-200">Full-stack social media clone built using React and Firebase with support for authentication, real-time posts, and responsive UI.</p>
+      </div>
+
+      <!-- Project Card -->
+      <div class="bg-white bg-opacity-10 backdrop-blur-lg border border-white border-opacity-20 p-6 rounded-2xl shadow-xl transition-transform hover:-translate-y-2 hover:shadow-2xl">
+        <h3 class="text-2xl font-semibold mb-2 text-white">ELPL IDE</h3>
+        <p class="text-gray-200">A full-featured IDE built in JavaFX for writing, running, and debugging ELPL code with syntax highlighting and theme toggle support.</p>
+      </div>
+
+      <!-- Project Card -->
+      <div class="bg-white bg-opacity-10 backdrop-blur-lg border border-white border-opacity-20 p-6 rounded-2xl shadow-xl transition-transform hover:-translate-y-2 hover:shadow-2xl">
+        <h3 class="text-2xl font-semibold mb-2 text-white">Native Compiler</h3>
+        <p class="text-gray-200">An x86-64 NASM-based compiler for ELPL that generates native macOS binaries using Clang, enabling blazing-fast performance.</p>
+      </div>
+
+      <!-- Project Card -->
+      <div class="bg-white bg-opacity-10 backdrop-blur-lg border border-white border-opacity-20 p-6 rounded-2xl shadow-xl transition-transform hover:-translate-y-2 hover:shadow-2xl">
+        <h3 class="text-2xl font-semibold mb-2 text-white">Full-Stack Weather App</h3>
+        <p class="text-gray-200">Complete weather forecasting app written entirely in Java using JavaFX for the UI and Spring Boot for live weather data backend.</p>
+      </div>
+
+      <div class="bg-white bg-opacity-10 backdrop-blur-lg border border-white border-opacity-20 p-6 rounded-2xl shadow-xl transition-transform hover:-translate-y-2 hover:shadow-2xl">
+        <h3 class="text-2xl font-semibold mb-2 text-white">Death Day Predictor(Game)</h3>
+        <p class="text-gray-200">A simple game based on some user inputs and give a prediction. Written entirly in Assembly language.</p>
+      </div>
+      
+      
+    </div>
+  </div>
+</section>
+
+
+
+    <!-- Footer -->
+    <footer class="bg-indigo-900 text-white text-center py-8">
+      <div class="mb-4 flex justify-center gap-6">
+        <a href="https://github.com/mujtabaishaq5" target="_blank" class="hover:text-gray-300 transition">
+          <i data-lucide="github" class="w-5 h-5"></i>
+        </a>
+        <a href="https://linkedin.com/in/syed-m-mujtaba-ishaq-002978170" target="_blank" class="hover:text-gray-300 transition">
+          <i data-lucide="linkedin" class="w-5 h-5"></i>
+        </a>
+        <a href="https://youtube.com/@BukhariTechnologies" target="_blank" class="hover:text-gray-300 transition">
+          <i data-lucide="youtube" class="w-5 h-5"></i>
+        </a>
+      </div>
+      <div class="text-sm text-gray-400">© 2025 Syed Ishaq. All rights reserved.</div>
+    </footer>
+
+  </div>
+
+  <script>
+    lucide.createIcons();
+    
+    window.addEventListener("DOMContentLoaded", () => {
+    const countdownEl = document.getElementById("countdown");
+    let count = 3;
+
+    const interval = setInterval(() => {
+      count--;
+      if (count > 0) {
+        countdownEl.textContent = count;
+      } else {
+        clearInterval(interval);
+        // Fade out and remove
+        const card = document.getElementById("welcome-card");
+        card.classList.add("opacity-0", "pointer-events-none", "transition-opacity", "duration-700");
+        setTimeout(() => card.remove(), 1000);
+      }
+    }, 1000);
+  });
+
+  </script>
+</body>
+</html>
+
