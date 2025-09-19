@@ -444,6 +444,8 @@
     lucide.createIcons();
     
     window.addEventListener("DOMContentLoaded", () => {
+  // Check if the user has already seen the welcome card
+  if (!localStorage.getItem("welcomeSeen")) {
     const countdownEl = document.getElementById("countdown");
     let count = 3;
 
@@ -457,9 +459,17 @@
         const card = document.getElementById("welcome-card");
         card.classList.add("opacity-0", "pointer-events-none", "transition-opacity", "duration-700");
         setTimeout(() => card.remove(), 1000);
+
+        // Mark welcome as seen
+        localStorage.setItem("welcomeSeen", "true");
       }
     }, 1000);
-  });
+  } else {
+    // If already seen, remove the card immediately
+    const card = document.getElementById("welcome-card");
+    if (card) card.remove();
+  }
+});
 
   </script>
 </body>
